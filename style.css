@@ -1,0 +1,354 @@
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+html,body{
+    
+    font-family: "Inter", sans-serif;
+    width: 100%;
+}
+
+/* universal selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* logo  */
+
+.logo{
+    
+    width: 100%; 
+    height: 30vh;
+    text-align: center;
+    display: grid;
+    align-items: center;
+    background-color: brown;  
+}
+
+.logo::before{
+    content: "Sarkari Yogna";
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+
+ /* header ko hight di or width bhi */
+    
+.header_1{
+    background-color: rgba(0, 255, 255, 0.173);
+    position: relative;
+   display: grid;
+    align-items: center;
+    height: 10vh;
+    
+}
+/* header ji nav_1 usko hight di or center kiya background color lagaya */
+
+.header_1 .nav_1{
+   
+    height: 10vh;
+    
+   
+}
+
+/* isme jitne list the une flex kiya gya or usko baraber space diya */
+
+.header_1 .nav_1 nav ul{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+   /* isme list jo style rahti usko hataya  */
+
+.header_1 .nav_1 nav ul li{
+   list-style-type: none;
+    
+}
+
+/* icons */
+
+.header_1 #icon{
+    position: absolute;
+    top: 1.5rem;
+    left: 1rem;
+    font-size: 1.8rem;
+    display: none;
+}
+
+.header_1 #icon::after{
+    content: "Menu";
+    margin-left: 0.9rem;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+ 
+    
+}
+
+
+
+/* isme jo nav mai list ke andar text likha  usko underline kop hatya hai */
+
+.header_1 .nav_1 nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+
+    
+}
+/* es container 3 row 4 colomn banaye  */
+
+ .section_1{
+    margin: 2vw;
+ }
+
+.section_1 .contaner_sbox{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap:2rem;
+}
+.section_1 .contaner_sbox .sbox {
+    height: 15vh;
+    border: 2px solid red;
+    display: grid;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+   
+    
+}
+
+.section_1 .contaner_sbox #id1{
+    height: 15vh;
+    background-color: red;
+}
+.section_1 .contaner_sbox #id2{
+    height: 15vh;
+    background-color: green;
+}
+.section_1 .contaner_sbox #id3{
+    height: 15vh;
+    background-color: blue;
+}
+.section_1 .contaner_sbox #id4{
+    height: 15vh;
+    background-color: orange;
+}
+.section_1 .contaner_sbox #id5{
+    height: 15vh;
+    background-color: navy;
+}
+.section_1 .contaner_sbox #id6{
+    height: 15vh;
+    background-color: purple;
+}
+.section_1 .contaner_sbox #id7{
+    height: 15vh;
+    background-color: indigo;
+}
+.section_1 .contaner_sbox #id8{
+    height: 15vh;
+    background-color: maroon;
+}
+.section_1 .contaner_sbox #id9{
+    height: 15vh;
+    background-color: red;
+}
+.section_1 .contaner_sbox #id10{
+    height: 15vh;
+    background-color: red;
+}
+.section_1 .contaner_sbox #id11{
+    height: 15vh;
+    background-color:#333333 ;
+}
+.section_1 .contaner_sbox #id12{
+    height: 15vh;
+    background-color: #36454f;
+}
+
+.section_1 .contaner_sbox #id1::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id2::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id3::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id4::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id5::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id6::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id7::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id8::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id9::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id10::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id11::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+.section_1 .contaner_sbox #id12::before {
+    content: "Delhi Police Constable Form (7565 Posts)";
+   
+    
+}
+  
+
+
+
+
+
+.section_2{
+    margin: 2vw;
+
+}
+.section_2 .contaner_lbox{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap:1vw;
+    
+}
+
+.section_2 .contaner_lbox .lbox{
+    height: 100vh;
+    border: 1px solid red;
+   
+    
+}
+
+
+
+/* //responsive website */
+  @media screen and (max-width:1200px){
+
+    .header_1 #icon{
+        
+    }
+    .section_2{
+        margin-top: 2rem;
+    }
+
+    .section_1{
+        margin-top: 2rem;
+    }
+
+    .section_1 .contaner_sbox{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap:2rem;
+}
+    
+  }
+
+   @media screen and (max-width:1050px){
+
+    .header_1{
+     width: 100%;
+     height: 70vh;
+       
+    display: grid;
+    justify-content: center;
+
+    }
+
+    .header_1 #icon{
+     display: block;
+  }
+
+  .hidden{
+   
+    display: none;
+    
+  }
+
+
+  .header_1 .nav_1  {
+    
+    position: relative;
+    
+    
+  }
+
+  .header_1 .nav_1 nav ul{
+     
+    position: absolute;
+    top:2rem;
+    left: -1.8rem;
+    gap:1rem
+  }
+
+
+  .header_1 .nav_1 nav ul{
+    
+  }
+
+  .header_1 .nav_1 nav ul{
+    flex-direction: column;
+  }
+  
+  
+
+
+   }
+
+
+
+
+
+
+   @media screen and (max-width:768px){
+
+
+
+    .section_1 .contaner_sbox{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+   
+}
+
+    .section_2 .contaner_lbox{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap:1vw;
+}
+    
+  }
